@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Proje</title>
+</head>
+
+<body>
+    <i class="fa fa-microphone mic"></i>
+    <div class='search_container'>
+
+        <h3>Cevap:</h3>
+        <div type='text' id='txt'></div> &nbsp;
+        <button type='button' disabled="true" class="playBtn" onclick='startRecording();'>
+            Başla
+        </button>
+        <select class="lang">
+            <option selected>Dil Sec</option>
+            <option value="tr">Türkçe</option>
+            <option value="en">İngilizce</option>
+            <option value="de">Almanca</option>
+        </select>
+        <div class="todo">
+            <div class="todoList">
+                <div class="todoLeft">
+                    <h3 class="todoLeftTitle">Başlık</h3>
+                    <p class="todoLeftParagh">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita rem et
+                        error excepturi aliquam
+                        dolores? Aliquid dolorum laudantium, nobis amet libero !</p>
+                </div>
+                <div class="todoRight">
+                    <input type="checkbox" class="todoCheck">
+                </div>
+            </div>
+        </div>
+        <img src="" id="video">
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>
